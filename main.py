@@ -1,10 +1,9 @@
 import pygame as pg
-import random
 
 pg.init()
 
 window = pg.display.set_mode((800, 600))
-pg.display.set_caption("First Board")
+pg.display.set_caption("Ping Pong Game")
 
 # First board
 first_board_x = 10
